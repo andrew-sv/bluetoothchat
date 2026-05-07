@@ -1,0 +1,32 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# Android Studio / IntelliJ
+*.iml
+.idea/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Android SDK location — machine-specific
+local.properties
+
+# Build artifacts
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Logs / OS
+*.log
+.DS_Store
+Thumbs.db
+
+# Keystores (never commit signing keys)
+*.jks
+*.keystore
+
+# Claude Code session-local settings
+.claude/
